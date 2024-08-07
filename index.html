@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MyFolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js" defer></script>
+	<link rel="icon" type="image/jpg" href="./imgs/portfolio-my-profile-browser-svgrepo-com.svg">
+</head>
+<body>
+	<div id="progress">
+		<span id="progress-value">&#11165;</span>
+	</div>
+	<header>
+		<a href="#" class="logo-holder">
+			<img src="./imgs/portfolio-my-profile-browser-svgrepo-com.svg" alt="" class="logo" loading="lazy">
+			<div class="logo-text">MyFolio</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#Experience">Experience</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#chat">Let's Chat</a>
+				</li>
+				<li>
+					<a href="mailto:sahu69270@gmail.com" class="button">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Ashish Kumar Sahu
+					</h1>
+					<p>
+						I'm an aspiring software developer and have expertise across web development, data structures and algorithms, Docker, and Kubernetes. Want to know more about me? Check out the links below to explore more :)
+					</p>
+					<div class="call-to-action">
+						<a href="./Sample_Resume_Template.pdf" class="button black" target="_blank">
+							View Resume
+						</a>
+						<a href="mailto:sahu69270@gmail.com" class="button white" target="_blank">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="https://github.com/Ashiya-22" target="_blank">
+							<img src="./imgs/github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="https://www.linkedin.com/in/ashish-kumar-sahu-b5429b244/" target="_blank">
+							<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="./imgs/IMG-20240531-WA0037.jpg" alt="Ashish Img" width="100%" loading="lazy"/>
+			</div>
+		</section>
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./imgs/html.png" alt="HTML" width="128"  loading="lazy"/>
+					<img src="./imgs/css.png" alt="CSS" width="128"  loading="lazy"/>
+					<img src="./imgs/javascript.png" alt="JS" width="128"  loading="lazy"/>
+					<img src="./imgs/azure.png" width="128" alt="Azure"  loading="lazy"/>
+					<img src="./imgs/vscode.png" width="128" alt="VS Code"  loading="lazy"/>
+					<img src="./imgs/docker-svgrepo-com.svg" alt="docker" width="128" loading="lazy"/>
+					<img src="./imgs/ejs-svgrepo-com.svg" alt="ejs" width="128" loading="lazy"/>
+					<img src="./imgs/kubernetes-svgrepo-com.svg" alt="kubernetes" width="128" loading="lazy"/>
+					<img src="./imgs/mongodb-svgrepo-com.svg" alt="mongo" width="128" loading="lazy"/>
+					<img src="./imgs/mysql-svgrepo-com.svg" alt="sql" width="128" loading="lazy"/>
+					<img src="./imgs/tailwind-svgrepo-com.svg" alt="tailwind" width="128" loading="lazy"/>
+					<img src="./imgs/html.png" alt="HTML" width="128"  loading="lazy"/>
+					<img src="./imgs/css.png" alt="CSS" width="128"  loading="lazy"/>
+					<img src="./imgs/javascript.png" alt="JS" width="128"  loading="lazy"/>
+					<img src="./imgs/azure.png" width="128" alt="Azure"  loading="lazy"/>
+					<img src="./imgs/vscode.png" width="128" alt="VS Code"  loading="lazy"/>
+					<img src="./imgs/docker-svgrepo-com.svg" alt="docker" width="128" loading="lazy"/>
+					<img src="./imgs/ejs-svgrepo-com.svg" alt="ejs" width="128" loading="lazy"/>
+					<img src="./imgs/kubernetes-svgrepo-com.svg" alt="kubernetes" width="128" loading="lazy"/>
+					<img src="./imgs/mongodb-svgrepo-com.svg" alt="mongo" width="128" loading="lazy"/>
+					<img src="./imgs/mysql-svgrepo-com.svg" alt="sql" width="128" loading="lazy"/>
+					<img src="./imgs/tailwind-svgrepo-com.svg" alt="tailwind" width="128" loading="lazy"/>
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills move">
+			<h2>
+				<small>About Me</small>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Frontend</h3>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>Tailwind</li>
+					</ul>
+					<h3>Backend</h3>
+					<ul>
+						<li>Node.js</li>
+						<li>Express</li>
+						<li>Mongoose</li>
+					</ul>
+					<h3>General Programming</h3>
+					<ul>
+						<li>C</li>
+						<li>C++</li>
+						<li>SQL</li>
+					</ul>
+					<h3>Others</h3>
+					<ul>
+						<li>Docker</li>
+						<li>Kubernetes</li>
+						<li>MongoDB</li>
+					</ul>
+				</div>
+				<div class="right-column">
+					<h3>A bit about me...</h3>
+					<p>
+						I am currently in my fourth year of pursuing a degree in Electronics and Instrumentation Engineering. With a keen interest in web development, I have honed my skills to become proficient in creating dynamic, user-friendly web applications.
+					</p>
+					<p>
+						My expertise in Data Structures and Algorithms (DSA) forms the backbone of my problem-solving capabilities. This foundation has been further solidified through my summer internship at Accenture, where I served as an AEH intern, gaining invaluable industry experience and insights.
+					</p>
+					<p>I am constantly exploring new technologies and methodologies to stay ahead in the ever-evolving tech landscape. My journey is fueled by a commitment to continuous learning and a passion for making a meaningful impact through my work.</p>
+				</div>
+			</div>
+		</section>
+		<section class="work-experience move" id="Experience">
+			<h2>
+				<small>Recent</small>
+				Work Experience
+			</h2>
+			<div class="jobs">
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/Linkdin_Post.jpeg" alt="Accenture" width="100%" loading="lazy"/>
+							<figcaption>
+								Accenture
+							</figcaption>
+						</div>
+					</figure>
+					<h3>AEH Intern</h3>
+					<div>June '24 - July '24</div>
+					<p>I was part of the Accenture Edge team, which managed the infrastructure-related projects, providing scalable and highly available solutions.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/1630671290710.jpeg" alt="ICS" width="100%" loading="lazy"/>
+							<figcaption>
+								Institute Counselling Services
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Graphic Designer</h3>
+					<div>Nov '22 - May '24</div>
+					<p>I created captivating and visually aesthetic posters for attracting viewers attention, which were posted on social media.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/1630628853365.jpeg" alt="CodeRed" width="100%" loading="lazy"/>
+							<figcaption>
+								CodeRed
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Member</h3>
+					<div>May'22 - Oct'22</div>
+					<p>I was part of the coding club and learned DSA in a collaborative environment among my peers during the time period.</p>
+				</article>
+				
+			</div>
+		</section>
+		<section id="projects" class="bento move">
+			<h2>
+				<small>
+					Previous
+				</small>
+				Completed Projects
+			</h2>
+			<div class="bento-grid">
+				<a href="https://inotes-v1-0.onrender.com/" class="bento-item" target="_blank">
+					<img src="./imgs/Screenshot 2024-08-02 233426.png" alt="iNotes" width="100%" loading="lazy"/>
+					<figcaption>
+						MyFolio
+					</figcaption>
+				</a>
+				<a href="https://inotes-v1-0.onrender.com/" class="bento-item" target="_blank">
+					<img src="./imgs/Screenshot 2024-08-02 233022.png" alt="iNotes" width="100%" loading="lazy"/>
+					<figcaption>
+						iNotes v1.0
+					</figcaption>
+				</a>
+				<a href="https://razorpay-c.netlify.app/" class="bento-item" target="_blank">
+					<img src="./imgs/Screenshot 2024-08-03 230701.png" alt="Razorpay Clone" width="100%" loading="lazy" />
+					<figcaption>
+						Razorpay Clone
+					</figcaption>
+				</a>
+				<a href="https://ashiya-22.github.io/Magical-Imagica/" class="bento-item" target="_blank">
+					<img src="./imgs/Screenshot 2024-08-04 123200.png" alt="Running" width="100%" loading="lazy"/>
+					<figcaption>
+						Parallax v1.0
+					</figcaption>
+				</a>
+			</div>
+		</section>
+		<section class="chatbot move" id="chat">
+			<h2>
+				<small>
+					Send me an
+				</small>
+				E-mail
+			</h2>
+			<div class="chatbot-blue">
+				<div class="chat-info">
+					<div class="bot-heading">
+						<div class="">MyF Chatbot</div>
+						<img src="imgs/happy-smiling-robot-head-icon-isolated-chat-bot-in-circle-chatbot-robot-greets-artificial-intelligence-ai-helper-service-and-support-assistant-cartoon-flat-illustration-vector-removebg-preview.png" height="50" width="50" alt="MyF Bot" loading="lazy">
+					</div>
+					<p>I've put together a chatbot here that knows all my skills, work experience, education, and other details. You can use it to ask questions about me to get a better idea of who I am and what I've done.</p>
+					<p>You can also download my resume here if you want to take a look at it.  I'm currently looking for new opportunities so if you have a role you think I'd be a good fit for, please get in touch!</p>
+					<a href="./Sample_Resume_Template.pdf" class="button black" target="_blank">View Resume</a>
+				</div>
+				<div class="chat-box">
+					<form action="https://formspree.io/f/xblryljn"
+					 method="POST">					
+						<label for="Name">Name</label>
+						<input type="text" id="name" name="Name" placeholder="Enter your name" required>
+
+						<label for="E-mail">E-mail</label>
+						<input type="email" id="mail" name="E-mail" placeholder="Enter your e-mail" required>
+					
+						<label for="Subject">Subject</label>
+						<input type="text" id="subject" name="Subject" placeholder="Enter your subject" required>
+					
+						<label for="Message">Message</label>
+						<textarea id="message" name="Message" placeholder="Enter your message" style="height:60px" required></textarea>
+					
+						<button id="submitButton" type="submit">Send &#10148;</button>
+				 </form>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer-logo">
+				<a href="#" class="logo-holder">
+					<img src="./imgs/portfolio-my-profile-browser-svgrepo-com.svg" alt="" class="logo" loading="lazy">
+					<div class="logo-text">MyFolio</div>
+				</a>
+			</div>
+			<div class="footer-text">
+				<div>© 2024 <a href="#">MyFolio™</a>. All Rights Reserved.</div>
+			</div>
+			<div class="footer-links">
+				<a href="https://github.com/Ashiya-22" target="_blank">
+					<img src="./imgs/github.png" alt="GitHub" width="35" />
+				</a>
+				<a href="https://www.linkedin.com/in/ashish-kumar-sahu-b5429b244/" target="_blank">
+					<img src="./imgs/linkedin.png" alt="LinkedIn" width="35" />
+				</a>
+			</div>
+		</footer>
+	</main>
+
+	<script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+	<script src="https://mediafiles.botpress.cloud/bd54e895-ab89-4484-8d89-780fdd907780/webchat/v2/config.js"></script>
+
+	<script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+	<script>
+		ScrollReveal().reveal('.move',{
+		distance: '30px',
+		origin:'bottom',
+		delay:100,
+		duration:500,
+		opacity: 0.8,
+		easing:"ease-out",
+		});
+	</script>
+</body>
+</html>
+
+
+
+
